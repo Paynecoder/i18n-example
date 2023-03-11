@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Georgotesque';
+    src: url(../public/Georgotesque/bfe15c92daf869379e4d5a12269775b2.ttf);
+}
+
+@font-face {
+    font-family: 'Marby';
+    src: url(../public/Marby/MabryPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url(../public/Nunito/NunitoSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito_Light';
+    src: url(../public/Nunito/NunitoSans-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Georgotesque Semi';
+    src: url(../public/Georgotesque/semi.ttf);
+}
+
+@font-face {
+    font-family: 'Nunito_Bold';
+    src: url(../public/Nunito/NunitoSans-Bold.ttf);
+}
+
+
+:root {
+    --primary-blue: #003c71;
+    --primary-white: #ffffff;
+    --border: hsla(0, 0%, 91%, .35);
+    --primary-yellow: #f6e902;
+    --secondary-blue: #0069ff;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 160px;
+}
